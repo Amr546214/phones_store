@@ -1,0 +1,129 @@
+:root{
+    --primary-color:#01ffff;
+    --secondary-color:#0077b5;
+    --gray-color:#808080;
+
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Source Sans pro', sans-serif;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #ececec;
+}
+
+.heading{
+    background-color:#01ffff;
+    padding: 75px 0;
+    margin-bottom: 20px;
+}
+
+.heading h1{
+    margin: auto;
+    width: fit-content;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color:black;
+    font-style: italic;
+}
+@media (max-width:768px){
+    .heading h1{
+        font-size: 21px;
+    }
+}
+ .container{
+    width: 1180px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(250px,auto));
+    gap: 50px;
+
+ }
+ @media(max-width:1200px){
+    .container{
+        width: 1000px;
+    }
+ }
+
+ @media(max-width:1024px){
+    .container{
+        width: 750px;
+    }
+ }
+
+ @media(max-width:768px){
+    .container{
+        width: 100%;
+    }
+ }
+ .box{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px 1px rgb(0, 0,0);
+    justify-content: space-between;
+    transition: 1s;
+    opacity: .5;
+}
+ .box:hover{
+    transform:scale(1.1);
+    opacity: 1;
+}
+ .box img{
+    width: 100%;
+}
+
+.box img:hover{
+    cursor: pointer;
+    opacity: 0.95;
+}
+.box h2{
+    font-size: 20px;
+    font-style: italic;
+    color: #141E46;
+}
+.box p{
+    padding: 0 20px;
+    font-size: px;
+    line-height: 1.35;
+    color:#3f3f3f;
+}
+.box span{
+    font-weight: 800;
+    font-size: 18px;
+
+}
+
+.rate{
+    color: #ffb900;
+    font-size: 12px;
+}
+.options{
+    margin-bottom: 25px;
+}
+
+.options a{
+    color: white;
+    background-color:#0077b5;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    font-style: italic;
+    border-radius:50px ;
+}
+.options a:hover{
+    background-color:#0cb7b7;
+}

@@ -1,0 +1,418 @@
+body {
+    font-family: "Maitree", serif;
+    background-image: url(../images/mob.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*::selection{
+    color: #00cfff;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #01ffff;
+}
+.header .summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.logo {
+    height: 100px;
+    border-radius: 28px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.container {
+    position: relative;
+    height: 275px;
+    margin: auto;
+}
+.all_links{
+    display: flex;
+    justify-content: flex-end;
+}
+.main_links{
+    display: flex;
+        margin-right: 0;
+        margin-top: -70px;
+        padding: 20px;
+        justify-content: space-around;
+}
+.main_links li{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.all_links .main_links li {
+    text-decoration: none;
+    list-style: none;
+
+}
+.all_links .main_links li i{
+    color: white;
+}
+.header .container .all_links .main_links i:hover{
+    color: #00cfff;
+    filter: drop-shadow(0px 1px 5px 2px aqua);
+}
+h2{
+    position: relative;
+        top: 30px;
+        font-size: 30px;
+        transform: translate(-50px, -50px);
+        bottom: 10%;
+        color: #01ffff;
+}
+p{
+        transform: translate(-50px, -50px);
+        color: #01ffff;
+}
+.menu{
+    margin-right: 8px;
+    margin-left: -39px;
+    height: 30px;
+}
+#mobiles{
+            background-color: #01ffff;
+            width: 82%;
+            border-radius: 40px;
+            margin-left: 140px;
+}
+.line{
+    display: flex;
+}
+.sam ,
+ .MI ,
+ .apple ,
+ .oppo ,
+ .relme ,
+ .vivo ,
+ .poco ,
+ .sony ,
+ .infinix {
+    margin-top: 50px;
+    margin-left: 220px;
+    transition: 1s;
+    
+}
+ .sam ,.oppo,.poco{
+        margin-left: 20px;
+}
+.samsung_logo ,
+ .MI_logo ,
+  .app_logo ,
+   .oppo_logo ,
+    .relme_logo ,
+     .vivo_logo ,
+      .poco_logo ,
+       .sony_logo ,
+        .infinix_logo{
+    margin-top: 25px;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    box-shadow: 4px 7px 20px 10px #4a4a4a;
+}
+.cap{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.sam:hover,
+.MI:hover,
+.apple:hover,
+.oppo:hover,
+.relme:hover,
+.vivo:hover,
+.poco:hover,
+.sony:hover,
+.infinix:hover
+{
+    transform: translateY(-20px);
+}
+/* about us */
+ .M {
+    display: flex;
+     width: 155px;
+     height: fit-content;
+     margin-top: 20px;
+     border: 4px solid white;
+     border-radius: 70px;
+     box-shadow: 10px 0px 30px 3px #c9c9c9;
+ }
+#about_us{
+    display: flex;
+}
+
+ .img1 {
+    width: 100%;
+    height: 25%;
+    margin-top: 5px;
+    border-radius: 50%;
+    transition: 1s linear;
+    transition-property: all;
+ }
+
+ .img1:hover {
+    transform: translateX(20px);
+}
+
+
+ .img2 {
+    width: 130px;
+    height: 130px;
+    float: left;
+    border-radius: 50%;
+    transition: 1s linear;
+
+ }
+
+ .img2:hover {
+    transform: translateX(20px);
+ }
+
+
+ .img3 {
+    width: 130px;
+        height: 130px;
+     float: left;
+     border-radius: 50%;
+     transition: 1s linear;
+     transition-property: all;
+ }
+
+ .img3:hover {
+    transform: translateX(20px);
+ }
+
+ .img4 {
+     width: 100%;
+     height: 25%;
+     float: left;
+     border-radius: 50%;
+     transition: 1s linear;
+     transition-property: all;
+ }
+
+ .img4:hover {
+    transform: translateX(20px);
+ }
+
+ .img5 {
+    width: 130px;
+        height: 130px;
+     float: left;
+     border-radius: 50%;
+     transition: 1s linear;
+     transition-property: all;
+}
+
+ .img5:hover {
+    transform: translateX(20px);
+ }
+ .img6 {
+     width: 100%;
+     height: 25%;
+     float: left;
+     border-radius: 50%;
+     transition: 1s linear;
+     transition-property: all;
+}
+
+ .img6:hover {
+    transform: translateX(20px);
+ }
+/* footer */
+#comunicate h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #dfd8ce;
+    transform: translateX(50px);
+    -webkit-transform: translateX(50px);
+    -moz-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+}
+.email:hover{
+   color: #01ffff;
+}
+#comunicate .icons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+.icon{
+    margin: 30px;
+    color: white;
+    transform: translateX(50px);
+}
+#comunicate h1{
+    margin-left: 90px;
+}
+#comunicate div .mail{
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+.arrow_to_top{
+        display: flex;
+        justify-content: flex-end;
+        right: 20px;
+        position: absolute;
+        background-color: #00cfff;
+        color: white;
+        width: 22px;
+        height: 22px;
+        align-items: center;
+}
+.arrow_to_top i{
+    right: 20%;
+    position: absolute;
+}
+#comunicate .icons .icon i:hover{
+    color: #00cfff;
+    filter: drop-shadow(0px 1px 5px 2px aqua);
+}
+
+
+.face {
+    position: relative;
+    margin: auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    outline: 10px solid #333;
+    background:white;
+}
+
+.hour {
+    position: absolute;
+    width: 5px;
+    height: 60px;
+    background: #aaa;
+    left: 87.5px;
+    top: 43px;
+    border-radius: 3px 3px 1px 1px;
+    transform-origin: 2px 47px;
+    box-shadow: 0 0 5px #0005, inset 1.5px 3px 0px #333, inset -1.5px -3px 0px #333;
+    z-index: 1;
+    animation: watch 43200s linear infinite;
+}
+
+.minute {
+    position: absolute;
+    width: 4px;
+    height: 78px;
+    background: #aaa;
+    left: 88px;
+    top: 25px;
+    border-radius: 3px 3px 1px 1px;
+    transform-origin: 2px 65px;
+    box-shadow: 0 0 5px #0005, inset 1.5px 3px 0px #333, inset -1.5px -3px 0px #333;
+    z-index: 2;
+    animation: watch 3600s linear infinite;
+}
+
+.second {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: red;
+    left: 85px;
+    top: 85px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    z-index: 3;
+    animation: watch 60s steps(60, end) 0s infinite;
+}
+
+.second::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 85px;
+    left: 3px;
+    bottom: -10px;
+    background: red;
+    border-radius: 2px;
+    box-shadow: 5px 0 2px rgba(128, 128, 128, 0.2);
+}
+
+.second::after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 2px;
+    top: 2px;
+    background: #555;
+    border-radius: 50%;
+}
+
+.v-index {
+        position: absolute;
+            color: #333;
+            font-size: 24px;
+            left: 130px;
+            top: 42px;
+            text-shadow: 0 157px 0 #333;
+            z-index: 1;
+}
+
+.h-index {
+    position: absolute;
+    color: #333;
+    font-size: 24px;
+    top: 72px;
+    left: 5px;
+    transform: rotate(-90deg);
+    text-shadow: 0 158px 0 #333;
+    z-index: 1;
+}
+
+@keyframes watch {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+.info{
+   margin: auto;
+}

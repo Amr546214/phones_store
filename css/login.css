@@ -1,0 +1,130 @@
+* {
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.load {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.load div {
+    width: 35px;
+    height: 35px;
+    background-color: #00bfff;
+    border-radius: 50%;
+    margin: 0 5px;
+    animation-name: disapper;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 4;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+
+}
+
+.load .two {
+
+    animation-delay: .3s;
+}
+
+.load .three {
+    animation-delay: .6s;
+}
+
+@keyframes disapper {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background-color: #1a1a1a;
+    width: 300px;
+    margin: auto;
+    gap: 10px;
+    border-radius: 30px;
+    animation-name: appear;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #00bfff;
+}
+
+input {
+    background-color: #333;
+    color: #fff;
+    width: 85%;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.l1 {
+    width: 50%;
+    margin: 2px;
+}
+
+.name {
+    display: flex;
+}
+
+.button input {
+    margin: 1px;
+    cursor: pointer;
+    transform: translateX(10px);
+}
+
+.button input:hover {
+    color: #00cfff;
+    box-shadow: 0px 1px 5px 2px aqua;
+}
+
+a {
+    font-weight: bold;
+    font-size: 15px;
+    color: #00bfff;
+}
